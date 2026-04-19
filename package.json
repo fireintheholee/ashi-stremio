@@ -1,0 +1,21 @@
+{
+  "name": "ashi-stremio-addon",
+  "version": "1.3.0",
+  "description": "Stremio addon for Ashi - AnimeKai + 1Movies streams with Sub/Dub support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
+}
